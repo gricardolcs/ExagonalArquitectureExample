@@ -1,0 +1,51 @@
+@import url('../../../styles/common.css');
+
+.applicant-stage-card {
+  width: 950px;
+  min-height: 215px;
+  background-color: var(--colorWhite);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-family: var(--fontRubik);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin: 16px auto;
+}
+
+.title-project {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 950px;
+  height: 40px;
+  color: var(--primaryDarkColor);
+  background-color: var(--grayLightColor);
+  padding-left: 20px;
+  font-size: 16px;
+  padding-top: 9px;
+}
+
+.sub-title {
+  font-family: var(--fontRoboto);
+  font-size: 0.875rem;
+  padding-top: 0.938rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-bottom: 0.938rem;
+}
+
+.ui.tiny.image.view-more {
+  width: 0.938rem;
+  margin-left: 0.438rem;
+}
+
+.stepWrapper {
+  margin-top: 1.438rem;
+  margin-bottom: 1.438rem;
+  flex-wrap: nowrap;
+}
+
+.see-details {
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 8rem;
+}

@@ -1,0 +1,15 @@
+.ui.middle.aligned.image.projectContentImage {
+    padding-right: 0.5rem;
+    cursor: pointer;
+    width: var(--miniSizeImageAsIcon);
+}
+
+.ui.grid>.column.optionsColumn:not(.row) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ui.grid>.column.menuColumn:not(.row) {
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem;
+}

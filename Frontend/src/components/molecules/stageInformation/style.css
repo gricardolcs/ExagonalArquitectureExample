@@ -1,0 +1,9 @@
+@import url('../../../styles/common.css');
+
+.subtitle {
+  font-weight: bolder;
+}
+
+.no-file {
+  font-weight: bolder;
+}

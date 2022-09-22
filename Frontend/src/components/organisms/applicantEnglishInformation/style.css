@@ -1,0 +1,25 @@
+.message-error {
+    font-size: 0.938rem;
+    margin-top: 0.313rem;
+    margin-left: 1.25rem;
+    color: var(--redColor);
+}
+
+.ui.grid>.row.custom-english-row {
+    justify-content: center;
+}
+
+.ui.header.english-header {
+    text-align: left;
+    font-family: var(--fontRubik);
+    padding: 2rem 0  1rem 0;
+}
+
+.english-result-value {
+    text-align: end;
+}
+
+.english-result-message {
+    padding: 1rem;
+    font-size: var(--navBarTextFontSize);
+}

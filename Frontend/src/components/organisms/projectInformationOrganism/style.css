@@ -1,0 +1,121 @@
+.ui.basic.blue.label.custom {
+  margin-top: 1.063rem;
+  margin-left: -1.4rem;
+  font-family: var(--fontRoboto);
+  font-size: var(--navBarTextFontSize);
+}
+
+.project-image-border {
+  display: flex;
+  border-radius: 10rem;
+  margin-left: 7.5rem;
+  background-color: white;
+  margin-right: 2.5rem;
+}
+
+.ui.image.project-image {
+  padding: 2rem;
+}
+
+.dropdown-name {
+  font-family: var(--fontRoboto);
+  font-size: var(--fontSizeStandard);
+}
+
+.circle {
+  background: none;
+  box-shadow: none;
+}
+
+i.small.icon {
+  margin-top: 0.25rem;
+}
+
+.icon-more {
+  margin-left: 3.75rem;
+}
+
+.dropdown-status {
+  margin-top: 1.25rem;
+  margin-bottom: 0.938rem;
+}
+
+.project-information-row {
+  padding: 1rem;
+}
+
+.ui.grid > .project-information {
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.project-name-row {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.sixteen.wide.column.project-name-column {
+  padding-top: initial;
+}
+
+.ui.header.project-name {
+  width: 16rem;
+  margin: 0.0625rem;
+  text-align: center;
+  font-family: var(--fontRubik);
+}
+
+.project-description {
+  text-overflow: ellipsis;
+  text-align: center;
+  font-family: var(--fontRoboto);
+  font-weight: bold;
+  color: var(--grayColor);
+  font-size: var(--navBarTextFontSize);
+}
+
+.project-specific-info {
+  margin-top: 0.8rem;
+}
+
+.project-type-info {
+  margin-top: 0.8rem;
+  margin-bottom: 3.125rem;
+}
+
+.ui.header.project-stage-name {
+  text-align: left;
+  font-family: var(--fontRubik);
+  margin-bottom: 1.3rem;
+}
+
+.blue.small.icon.circle {
+  margin-right: 1.2rem;
+}
+
+.project-stage {
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+  font-family: var(--fontRoboto);
+  font-size: var(--navBarTextFontSize);
+}
+
+.message-error {
+  font-size: 0.938rem;
+  margin-top: 0.313rem;
+  margin-left: 1.25rem;
+  color: var(--redColor);
+}
+
+img.ui.mini.top.aligned.image.participants-icon {
+  width: 1rem;
+  height: 1.1rem;
+  margin-right: 0.438rem;
+}
+
+.project-name-ellipsis {
+  width: calc(100% - 5rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

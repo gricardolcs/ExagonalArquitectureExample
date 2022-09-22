@@ -1,0 +1,44 @@
+.settings-card {
+  position: relative;
+  width: auto;
+  height: 10.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.ui.card > .settings-card-decoration:first-child,
+.ui.cards > .card > .settings-card-decoration:first-child {
+  border-bottom-right-radius: 1.5rem !important;
+  border-top-right-radius: 1.5rem !important;
+}
+
+.settings-card-decoration {
+  background: #7f7f7f;
+  position: absolute;
+  height: 5.75rem;
+  width: 8px;
+  left: -1px;
+  margin: 1.43rem 0 3.581rem 0 !important;
+}
+
+.settings-card-content {
+  padding-left: 15px;
+}
+
+.ui.card.settings-card {
+  padding-left: 15px;
+}
+
+.ui.card.settings-card .content .header {
+  padding-top: 10px;
+}
+
+.settings-card-links {
+  cursor: pointer;
+  text-align: left;
+  padding: 0.1em 0;
+}
+
+.settings-card-links:hover {
+  background-color: #f0f0f0;
+}

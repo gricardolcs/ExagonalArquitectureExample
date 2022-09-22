@@ -1,0 +1,65 @@
+.custom-list-title {
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.ui.button.buttonStyle {
+  height: auto;
+  margin: 0;
+  align-self: center;
+}
+
+.ui.search.selection.dropdown.mini.textInputDropdown {
+  background: #e8e8e8;
+  width: 6.938rem;
+  height: 2.313rem;
+}
+
+.textInputSearch {
+  display: inline-flex;
+  width: 15rem;
+  height: 2.313rem;
+}
+
+.left.floated.five.wide.column.optionSection {
+  padding-left: 2rem;
+  align-self: center;
+}
+
+.right.floated.five.wide.column.optionSection {
+  padding-right: 2rem;
+  align-self: center;
+  text-align: end;
+}
+
+.ui.mini.middle.aligned.image.sizeIconRow {
+  width: 1.375rem;
+  height: 0.938rem;
+  margin-right: 3.5rem;
+}
+
+.ui.mini.middle.aligned.image.sizeIconGrid {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 3.5rem;
+}
+
+.ui.mini.middle.aligned.image.sizeIconDownload {
+  width: 1.063rem;
+  height: 1.375rem;
+}
+
+.ui.relaxed.grid.list-grid {
+  height: calc(100% - 48rem);
+  width: 100%;
+  margin-left: 0;
+}
+
+.cards-table.ui.relaxed.grid > .column:not(.row) {
+  padding: 0 0.5rem !important;
+}
+
+.list-title {
+  align-items: flex-start;
+  margin-left: 1rem;
+}

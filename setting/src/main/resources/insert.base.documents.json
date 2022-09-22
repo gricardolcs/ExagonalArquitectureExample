@@ -1,0 +1,58 @@
+[
+  {
+    "_id": -9167029450912874124,
+    "name": "Programing Language",
+    "description": "test description",
+    "skills": [
+      "Java",
+      "C#",
+      "Python",
+      "Javascript"
+    ],
+    "_class": "com.jalasoft.bootcamp.setting.domain.category.Category"
+  },
+  {
+    "_id": -9167029450912874122,
+    "name": "OS",
+    "description": "test description",
+    "skills": [
+      "Windows",
+      "Linux",
+      "categoryId",
+      "Mac"
+    ],
+    "_class": "com.jalasoft.bootcamp.setting.domain.category.Category"
+  },
+  {
+    "_id": -9167029450912874121,
+    "name": "Version Control",
+    "description": "test description",
+    "skills": [
+      "Gitlab"
+    ],
+    "_class": "com.jalasoft.bootcamp.setting.domain.category.Category"
+  },
+  {
+    "_id": -9167029450912874129,
+    "name": "Databases",
+    "description": "test description",
+    "skills": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "_class": "com.jalasoft.bootcamp.setting.domain.category.Category"
+  },
+  {
+    "_id": -9167029450912874130,
+    "name": "Web Frameworks",
+    "description": "test description",
+    "skills": [
+      "Angular.js",
+      "React.js",
+      "Angular",
+      "Spring"
+    ],
+    "_class": "com.jalasoft.bootcamp.setting.domain.category.Category"
+  }
+]

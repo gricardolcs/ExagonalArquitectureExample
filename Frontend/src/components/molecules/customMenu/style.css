@@ -1,0 +1,30 @@
+.active.item.default-tab-selected.menuTab {
+    border-color: #3498DC;
+    border-radius: 0 !important;
+    font-weight: 700 !important;
+    margin-top: auto;
+}
+
+.ui.top.attached.menuNavBar.menu.menuNavBar {
+    border: none;
+    height: 3.7rem;
+    border-radius: 0;
+    background: #C4C4C4;
+    margin: auto;
+    width: auto;
+    font-size: var(--navBarTextFontSize);
+    border-bottom: 0.3rem solid #3498DC;
+}
+
+.ui.mini.middle.aligned.image.imageTab {
+    height: var(--navBarIconWidth);
+    width: var(--navBarIconWidth);
+    margin-right: 0.25rem;
+}
+
+.ui.segment.tab.menuContent {
+    padding: 0;
+    margin: auto;
+    width: auto;
+    border-radius: 0;
+}

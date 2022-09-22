@@ -1,0 +1,101 @@
+
+@import url("../../../styles/common.css");
+
+.ui.grid>.row.bootcamp-card-row-text {
+    font-size: var(--listTextFontSize);
+    line-height: 1.2em;
+    padding-top: 0.6em;
+}
+
+.ui.grid>.row.bootcamp-card-row {
+    padding-bottom: 0em;
+    font-size: var(--listTextFontSize);
+    line-height: 1.2em;
+    padding-top: 0.6em;
+}
+
+.column.bootcamp-card {
+    background: #E2F0FA;
+}
+
+.button.ui.circular.button.bootcamp-list-more-button {
+    background: #086CAF;
+    width: 10em;
+    height: 1.5em;
+    border-radius: 0.625em;
+    color: white;
+    font-size: 1em;
+    padding: 0;
+}
+
+.ui.vertically.divided.relaxed.column.grid.bootcamp-table {
+    padding-top: 1em;
+}
+
+.column.bootcamp-image-container {
+    text-align: right;
+    cursor: pointer;
+}
+
+img.ui.mini.middle.aligned.image.bootcamp-icon  {
+    height: 1.2em;
+    width: 1.2em;
+}
+
+img.ui.mini.middle.aligned.image.bootcamp-icon-action  {
+    height: 1.4em;
+    width: 1.4em;
+}
+
+.ui.grid>.row.bootcamp-table-row {
+    content: none;
+    padding: 0.3em;
+}
+
+.ui[class*="vertically divided"].grid>.row.bootcamp-table-row:before {
+    height: 0em;
+}
+
+.ui.grid>.row>.column.bootcamp-info {
+    padding-left: 0em;
+}
+
+.ui.grid>.row>.column.bootcamp-info-description {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+.ui.grid>.row>.column.bootcamp-info-long {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ui.grid>.row>.column.bootcamp-icon-container {
+    text-align: right;
+}
+
+.middle.aligned.wide.column.bootcamp-image-container-parent {
+    padding-right: 0em;
+}
+
+.ui.centered.grid.button-container {
+    padding-top: 2.5em;
+}
+
+.ui.grid>.relaxed.row>.column,
+.ui.relaxed.grid>.column:not(.row),
+.ui.relaxed.grid>.row>.column.bootcamp-card-container {
+    padding-left: 1.5em;
+    padding-right: 1em;
+}
+
+.ui[class*="vertically divided"].grid>.column:not(.row),
+.ui[class*="vertically divided"].grid>.row>
+.column{
+    padding-bottom: 0.5em !important;
+    padding-right: 1em !important;
+}

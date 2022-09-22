@@ -1,0 +1,15 @@
+.home-page {
+  overflow: hidden;
+}
+
+.home-page .navbar .tabs .menu-icons {
+  width: var(--navBarIconWidth);
+}
+
+.home-page .navbar .tabs .ui.secondary.pointing.menu .item img {
+  margin: 0 0.35714286em 0 0;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-bottom: 0.29125rem solid black;
+}

@@ -1,0 +1,8 @@
+const EnumSchemaInputType = {
+  TEXT_INPUT: 'TEXT_INPUT',
+  NUMERIC_INPUT: 'NUMERIC_INPUT',
+  DROPDOWN_INPUT: 'DROPDOWN_INPUT',
+  UPLOAD_FILE_INPUT: 'UPLOAD_FILE_INPUT'
+};
+
+export default EnumSchemaInputType;

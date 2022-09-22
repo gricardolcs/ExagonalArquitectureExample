@@ -1,0 +1,20 @@
+@import url("../../../styles/common.css");
+
+.headerText {
+    text-align: left;
+}
+
+.modal-content {
+    font-family: var(--fontRoboto);
+    font-size: var(--navBarTextFontSize);
+}
+
+.bold-content {
+    font-weight: bolder;
+}
+
+.titles-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

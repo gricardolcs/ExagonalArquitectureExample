@@ -1,0 +1,29 @@
+@import url("../../../styles/common.css");
+
+.dropzone-whole {
+    height: 11.25rem;
+    background-color: var(--colorWhite);
+    text-align: center;
+    border-style: dashed;
+    border-radius: 0.25rem;
+    border-width: 0.063rem;
+    border-color: var(--grayColor);
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-family: var(--fontRoboto);
+    font-size: var(--navBarTextFontSize);
+}
+
+.file-imported {
+    margin-top: 2.5rem;
+}
+
+.drop-message {
+    margin-top: 3.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.file-imported-name {
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}

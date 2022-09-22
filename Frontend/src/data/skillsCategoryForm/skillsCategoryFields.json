@@ -1,0 +1,60 @@
+[
+  {
+    "type": "input",
+    "label": "Name",
+    "propertyName": "categoryName",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Category Name...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "text-area",
+    "label": "Description",
+    "propertyName": "description",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Category description...",
+    "className": "descriptionTextArea",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": false,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": false
+        }
+      }
+    ]
+  },
+  {
+    "type": "text-area",
+    "label": "Skills",
+    "propertyName": "skills",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Skills...",
+    "className": "skills",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": false
+        }
+      }
+    ]
+  }
+]

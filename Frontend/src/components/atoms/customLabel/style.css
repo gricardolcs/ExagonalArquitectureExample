@@ -1,0 +1,47 @@
+@import url(../../../styles/common.css);
+.ui.basic.label.custom {
+  border: none;
+  background: transparent;
+}
+
+label {
+  font-family: var(--fontRoboto);
+}
+
+label span {
+  color: #db2828;
+}
+
+.ui.basic.label.labelCreateForm .icon {
+  margin-left: 0.5rem;
+}
+
+.labelCreateForm,
+.inputCreateForm {
+  font-size: var(--labelFormTextFontSize);
+}
+
+.ui.mini.input .inputCustomForm,
+.ui.dropdown.mini.inputCustomForm,
+.ui.mini.input .user-inputCreateForm,
+.ui.dropdown.mini.user-inputCreateForm {
+  font-size: var(--labelFormTextFontSize);
+}
+
+.labelCreateForm {
+  padding-left: 0;
+}
+
+.ui.basic.blue.label.custom {
+  border: none;
+  /* important is required here because semantic ui always overrides this style*/
+  background-color: transparent !important;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.ui.basic.blue.label.custom:hover,
+.ui.basic.blue.label.custom:hover > .icon {
+  color: var(--primaryDarkColor);
+  background-color: transparent;
+}

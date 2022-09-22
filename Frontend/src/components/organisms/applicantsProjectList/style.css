@@ -1,0 +1,77 @@
+@import url('../../../styles/common.css');
+
+.empty-data {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.empty-data-icon {
+  margin-bottom: 0.813rem;
+}
+
+.empty-data-message {
+  font-family: var(--fontRoboto);
+  font-size: var(--navBarTextFontSize);
+}
+
+.toolbar-message {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.textInputSearch {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+.ui.segment {
+  box-shadow: none !important;
+}
+
+.cards-table-applicants {
+  padding: 0 0rem !important;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+.list-title-content {
+  left: -0.1rem;
+}
+
+.dropdown-divider {
+  width: 0.25rem;
+}
+
+.ui.dropdown .menu > .item {
+  margin: 0.25rem;
+}
+
+.ui.button.dropdown .menu {
+  margin-top: 0.2rem;
+}
+
+.ui[class*='center aligned'].segment {
+  text-align: left !important;
+}
+
+.custom-applicant-project-list {
+  height: calc(100% - 30.2rem);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  overflow-y: auto;
+  position: fixed;
+  width: 80%;
+}
+
+.ui[class*='vertically divided'].grid
+  > .column.applicant-project-card-column:not(.row),
+.ui[class*='vertically divided'].grid
+  > .row
+  > .column.applicant-project-card-column {
+  margin-bottom: 0;
+}

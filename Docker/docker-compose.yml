@@ -1,0 +1,147 @@
+version: "3.7"
+
+services:
+    # Postgres DB Container
+    postgresdb:
+        image: docker.jala.pro/recruitment_ats/postgres:10
+        container_name: postgresdb
+        hostname: postgresdb
+        restart: always
+        volumes: 
+            - '/home/ubuntu/volumes/postgres_data:/var/lib/postgresql/data'
+        environment:
+            - POSTGRES_PASSWORD={POSTGRES_PASSWORD}
+        ports:
+            - "5432:5432"
+        networks: 
+            - bootcamp-app-network
+
+    # Mongo DB Container
+    mongodb:
+        image: docker.jala.pro/recruitment_ats/mongo:4.4
+        container_name: mongodb
+        hostname: mongodb
+        restart: always
+        entrypoint: ["/usr/bin/mongod", "--bind_ip_all", "--replSet", "rs0", "--enableMajorityReadConcern", "true"]
+        volumes: 
+            - '/home/ubuntu/volumes/mongo_data:/data/db'
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME={MONGO_INITDB_ROOT_USERNAME}
+            - MONGO_INITDB_ROOT_PASSWORD={MONGO_INITDB_ROOT_PASSWORD}
+        ports:
+            - "27017:27017"
+        networks: 
+            - bootcamp-app-network
+
+    # Rabbit MQ Container
+    rabbitmq:
+        image: docker.jala.pro/recruitment_ats/rabbitmq:3.8.14-management
+        container_name: rabbitmq
+        hostname: rabbitmq
+        restart: always
+        environment:
+            - RABBITMQ_DEFAULT_USER={RABBITMQ_DEFAULT_USER} 
+            - RABBITMQ_DEFAULT_PASSWORD={RABBITMQ_DEFAULT_PASSWORD}
+        ports:
+            - "5672:5672"
+            - "15672:15672"
+        networks: 
+            - bootcamp-app-network
+
+    # Discovery Service Container
+    discoveryservice:
+        image: docker.jala.pro/recruitment_ats/discovery:{DISCOVERY_TAG}
+        container_name: discoveryservice
+        hostname: discoveryservice
+        restart: always
+        ports:
+            - "9091:9091"
+        networks:
+          - bootcamp-app-network
+
+    # # Gateway Service Container
+    gatewayservice:
+        image: docker.jala.pro/recruitment_ats/gateway:{GATEWAY_TAG}
+        container_name: gatewayservice
+        hostname: gatewayservice
+        restart: always
+        ports:
+            - "9094:9094"
+        depends_on:
+            - discoveryservice
+        networks:
+          - bootcamp-app-network
+            
+    # # Applicant Service Container
+    applicantservice:
+        image: docker.jala.pro/recruitment_ats/applicant:{APPLICANT_TAG}
+        container_name: applicantservice
+        hostname: applicantservice
+        restart: always
+        ports: 
+            - "9092:9092"
+        depends_on: 
+            - discoveryservice
+            - gatewayservice
+        networks:
+            - bootcamp-app-network          
+
+    # # Bootcamp Service Container
+    bootcampservice:
+        image: docker.jala.pro/recruitment_ats/bootcamp:{BOOTCAMP_TAG}
+        container_name: bootcampservice
+        hostname: bootcampservice
+        restart: always
+        ports:
+              - "9093:9093"
+        depends_on: 
+          - discoveryservice
+          - gatewayservice
+        networks:
+          - bootcamp-app-network
+
+    # # Authentication Service Container
+    authenticationservice:
+        image: docker.jala.pro/recruitment_ats/authentication:{AUTHENTICATION_TAG}
+        container_name: authenticationservice
+        hostname: authenticationservice
+        restart: always
+        ports:
+              - "9095:9095"
+        depends_on: 
+          - discoveryservice
+          - gatewayservice
+        networks:
+          - bootcamp-app-network      
+    
+    # # Authentication Service Container
+    settingservice:
+        image: docker.jala.pro/recruitment_ats/setting:{SETTING_TAG}
+        container_name: settingservice
+        hostname: settingservice
+        restart: always
+        ports:
+              - "9096:9096"
+        depends_on: 
+          - discoveryservice
+          - gatewayservice
+        networks:
+          - bootcamp-app-network
+  
+    # React App Client Container
+    reactapp:
+        image: docker.jala.pro/recruitment_ats/recruit_ui:{RECRUIT_UI_TAG}
+        container_name: reactapp-container
+        hostname: reactapp-container
+        restart: always 
+        ports: 
+            - "4200:4200"
+        depends_on: 
+            - bootcampservice
+            - applicantservice
+        networks:
+          - bootcamp-app-network                
+
+networks: 
+    bootcamp-app-network:
+        driver: bridge

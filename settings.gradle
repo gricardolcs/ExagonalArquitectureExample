@@ -1,0 +1,8 @@
+rootProject.name = 'Backend'
+include 'applicant'
+include 'becommon'
+include 'bootcamp'
+include 'discoveryservice'
+include 'gateway'
+include 'authentication'
+include 'setting'

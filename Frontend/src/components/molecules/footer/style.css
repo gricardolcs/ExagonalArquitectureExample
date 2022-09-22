@@ -1,0 +1,15 @@
+@import url('../../../styles/common.css');
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  line-height: 2;
+  text-align: right;
+  font-family: var(--fontRoboto);
+  font-size: var(--navBarTextFontSize);
+}
+
+.ui.large.basic.label.custom.applicant-version {
+  padding: 0.58112rem 0.82988rem;
+}

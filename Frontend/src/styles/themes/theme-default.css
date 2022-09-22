@@ -1,0 +1,27 @@
+.default-primary-color {
+    background-color: #086CAF;
+}
+
+.default-nav-primary-color {
+    background-color: #C9E2F3;
+}
+
+.active.default-tab-selected {
+    background-color: #3498DC !important;
+}
+
+.default-tab-selected {
+    background-color: #B0DDFB !important;
+}
+
+.active.default-subTab-selected {
+    background-color: #74B9E9 !important;
+}
+
+.default-subTab-selected {
+    background-color: #B0DDFB !important;
+}
+
+.default-tab-content {
+    background-color: #E2F0FA !important;
+}

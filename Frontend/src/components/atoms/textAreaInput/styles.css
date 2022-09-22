@@ -1,0 +1,8 @@
+@import url(../../../styles/common.css);
+
+.text-length-counter {
+    display: flex;
+    justify-content:flex-end ;
+    color: var(--grayColor);
+    font-size: var(--textFontSize);
+}

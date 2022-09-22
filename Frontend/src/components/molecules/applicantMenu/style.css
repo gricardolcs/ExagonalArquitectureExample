@@ -1,0 +1,17 @@
+@import url('../../../styles/common.css');
+
+.applicant-menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0 1rem 1rem 1rem;
+  align-items: baseline;
+}
+
+.menu-title {
+  font-family: var(--fontRubik);
+  font-size: var(--navBarTextFontSize);
+  margin-top: 1rem;
+}
+.stage-button {
+    margin: 0 0.5rem !important;
+}

@@ -1,0 +1,17 @@
+.ui.basic.segment.custom-sidebar-header {
+  background-color: #f3f3f4;
+  height: 5rem;
+}
+
+.ui.secondary.pointing.menu .active.item.custom-item {
+  border-bottom: 0.181rem solid var(--primaryLightColor);
+}
+
+.ui.secondary.pointing.menu.custom-tabs {
+  border-bottom-width: initial;
+  border-bottom-color: transparent;
+}
+
+.ui.attached.segment.custom-segment {
+  border: none;
+}

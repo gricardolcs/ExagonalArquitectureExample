@@ -1,0 +1,16 @@
+.flex-logo {
+  display: flex;
+  padding-left: 0.625rem;
+  align-items: center;
+}
+
+.text-side-logo {
+  text-align: left;
+  padding-left: 0.5rem;
+  color: #ffffff;
+}
+
+.text-side-logo > h4 {
+  font-size: var(--titleFontSize);
+  width: 165px;
+}

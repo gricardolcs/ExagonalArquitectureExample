@@ -1,0 +1,13 @@
+@import url('../../../styles/common.css');
+
+.basicImageCard {
+  width: 5rem;
+  height: auto;
+  margin-bottom: 1.001rem;
+}
+
+.center.aligned.header.card-header {
+  font-size: 1rem;
+  font-family: var(--fontRubik);
+  font-weight: 700;
+}

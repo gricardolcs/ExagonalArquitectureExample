@@ -1,0 +1,18 @@
+.numeric-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.numeric-block-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-numeric-block {
+  padding: 2em;
+}
+
+.numeric-body-value {
+  font-weight: 700;
+}

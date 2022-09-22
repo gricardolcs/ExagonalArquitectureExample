@@ -1,0 +1,13 @@
+.custom-applicant-list {
+  height: calc(100% - 17rem);
+  padding: 1.5rem 10rem 1.5rem 10rem;
+  overflow: hidden;
+  overflow-y: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.ui[class*='vertically divided'].grid > .column.applicant-card-column:not(.row),
+.ui[class*='vertically divided'].grid > .row > .column.applicant-card-column {
+  margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+.edit-profile-page {
+  min-height: calc(100vh - 78px);
+  height: auto;
+  padding-top: 2.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}

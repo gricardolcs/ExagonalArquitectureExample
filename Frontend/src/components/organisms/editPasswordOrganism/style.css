@@ -1,0 +1,8 @@
+.edit-password-section {
+  padding: 1em;
+}
+
+.edit-password-form {
+  display: flex;
+  justify-content: space-between;
+}

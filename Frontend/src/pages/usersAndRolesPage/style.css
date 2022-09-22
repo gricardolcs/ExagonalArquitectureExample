@@ -1,0 +1,12 @@
+@import url('../../styles/common.css');
+.create-user-page {
+  display: flex;
+  justify-content: center;
+}
+.rowCellData > td {
+  border-top: 0px solid !important;
+}
+
+.rowCellData:hover {
+ cursor: pointer;
+}

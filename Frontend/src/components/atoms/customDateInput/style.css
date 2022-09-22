@@ -1,0 +1,14 @@
+@import url("../../../styles/common.css");
+
+input {
+    border-radius: 0.2rem;
+    border-color: var(--backgroundColor);
+    border-style: solid;
+    border-width: 0.0625rem;
+}
+
+input:focus {
+    outline: none;
+    border:0.0625rem solid var(--blueColor);
+    
+}

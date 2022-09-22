@@ -1,0 +1,11 @@
+.ui[class*='very basic'].table.skill-category-table {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.ui.grid > .row.newCategoryButtonPadding {
+  padding-left: 10%;
+}
+
+.ui.grid > .row.newCategoryTitlePadding {
+  padding-left: 5%;
+}

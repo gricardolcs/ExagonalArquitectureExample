@@ -1,0 +1,25 @@
+.sub-menu-applicants-projects > * {
+  text-align: center;
+}
+
+.options-template {
+  display: flex;
+}
+
+.filterOptions {
+  margin-right: .7rem;
+}
+
+.options-template .ui.mini.image, .ui.mini.images .image, .ui.mini.images img, .ui.mini.images svg .options-template-img {
+  height: auto;
+  cursor: pointer;
+  width: var(--miniSizeImageAsIcon);
+}
+
+.options-template > *:not(.shrink) {
+  flex-shrink: 0;
+}
+
+.shrink {
+  width: 100%;
+}

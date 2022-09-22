@@ -1,0 +1,15 @@
+1) Install Earlang before installing RabbitMQ
+
+2) Open RabbitMQ server console
+
+C:\Users\****\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\RabbitMQ Server
+
+3) run the following to enable the visual plugin
+rabbitmq-plugins.bat enable rabbitmq_management
+
+4) Login into the panel to view RabbitMQ.
+
+http://localhost:15672/
+user: guest
+password: guest
+

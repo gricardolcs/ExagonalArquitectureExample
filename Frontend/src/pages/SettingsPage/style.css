@@ -1,0 +1,4 @@
+.setup-page {
+  height: calc(100vh - 98px);
+  padding: 0 25px;
+}

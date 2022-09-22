@@ -1,0 +1,6 @@
+{
+    "_id": 1111111111111111111,
+    "passwordExpirationInDays": "60",
+    "blockAttempts": "7",
+    "_class": "com.jalasoft.bootcamp.setting.domain.userAccount.UserAccount"
+}

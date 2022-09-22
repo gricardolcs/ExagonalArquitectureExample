@@ -1,0 +1,17 @@
+.table-status-field {
+  display: flex;
+  align-items: center;
+}
+
+.ui.label.table-label-status {
+  margin-bottom: 0;
+}
+
+.table-label-status-text {
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.rowCellData:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,9 @@
+.card-little-column.grey {
+    background: #9e9e9e;
+}
+
+.ui.large.basic.label.custom  {
+    padding: 0;
+    cursor: pointer;
+    color: var(--blueColor);
+}

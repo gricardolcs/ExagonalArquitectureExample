@@ -1,0 +1,19 @@
+@import url('../../../styles/common.css');
+
+.ui.form .disabled.field,
+.ui.form .disabled.fields .field,
+.ui.form .field :disabled {
+  opacity: 0.9 !important;
+}
+
+.ui.form .field > .selection.dropdown {
+  box-shadow: none;
+  border-bottom-right-radius: 0.188rem !important;
+  border-bottom-left-radius: 0.188rem !important;
+}
+
+.dropdown-message {
+  color: var(--redColor);
+  font-size: 12px;
+  font-weight: 700;
+}

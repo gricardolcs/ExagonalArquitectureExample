@@ -1,0 +1,51 @@
+.ui.popup.message.red {
+    background: #fff6f6;
+    border-color: #e0b4b4 !important;
+    color: #9f3a38;
+}
+
+.ui.right.center.popup.pointer.red:before {
+    background-color: #fff6f6;
+    box-shadow: -0.063rem 0.063rem 0 0 #e0b4b4;
+}
+
+.ui.bottom.center.popup.pointer.red:before {
+    background-color: #fff6f6;
+    box-shadow: -0.063rem -0.063rem 0 0 #e0b4b4;
+}
+
+.ui.top.center.popup.pointer.red:before {
+    background-color: #fff6f6;
+    box-shadow: 0.063rem 0.063rem 0 0 #e0b4b4;
+}
+
+.ui.left.center.popup.pointer.red:before {
+    background-color: #fff6f6;
+    box-shadow: 0.063rem -0.063rem 0 0 #e0b4b4;
+}
+
+.ui.popup.message.black {
+    background: #5A5A5A;
+    border-color: #5A5A5A !important;
+    color: white;
+}
+
+.ui.right.center.popup.pointer.black:before {
+    background-color: #5A5A5A;
+    box-shadow: -0.063rem 0.063rem 0 0 #5A5A5A;
+}
+
+.ui.bottom.center.popup.pointer.black:before {
+    background-color: #5A5A5A;
+    box-shadow: -0.063rem -0.063rem 0 0 #5A5A5A;
+}
+
+.ui.top.center.popup.pointer.black:before {
+    background-color: #5A5A5A;
+    box-shadow: 0.063rem 0.063rem 0 0 #5A5A5A;
+}
+
+.ui.left.center.popup.pointer.black:before {
+    background-color: #5A5A5A;
+    box-shadow: 0.063rem -0.063rem 0 0 #5A5A5A;
+}

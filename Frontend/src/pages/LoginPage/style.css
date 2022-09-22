@@ -1,0 +1,62 @@
+@import url('../../styles/common.css');
+.header-login,
+.user-email-login-field,
+.password-login-field {
+  padding-left: 0 !important;
+  margin: 20px 0px 5px 0px !important;
+}
+.login-segment-form {
+  padding: 20px 30px 50px !important;
+  overflow: hidden;
+}
+.content-login {
+  height: 100vh;
+  margin-top: 0rem !important;
+  background: var(--grayDarkColor);
+}
+.login-form {
+  max-width: 600px;
+  text-align: left !important;
+}
+
+.login-button {
+  margin-top: 30px !important;
+}
+
+.custom.error-message-login {
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.enabled-logout {
+  background-color: white;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+
+.login-inactive-message,
+.login-blocked-message {
+  font-weight: bold;
+  font-size: var(--navBarTextFontSize);
+}
+
+.login-inactive-message {
+  color: var(--redColor);
+  text-align: center;
+}
+
+.login-blocked-message {
+  margin-left: -32px;
+  margin-top: -22px;
+  width: calc(100% + 64px);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbc4c7;
+  color: var(--redColor);
+}

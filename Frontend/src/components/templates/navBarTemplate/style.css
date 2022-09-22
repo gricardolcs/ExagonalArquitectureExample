@@ -1,0 +1,12 @@
+.ui.secondary.pointing.menu.custom-tabs {
+  border-bottom-width: initial;
+  border-bottom-color: transparent;
+}
+
+.settings h5 {
+  font-size: var(--navBarTextFontSize);
+}
+
+.ui.menu.navbar-tab {
+  margin-bottom: 0;
+}

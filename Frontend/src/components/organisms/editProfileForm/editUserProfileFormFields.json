@@ -1,0 +1,122 @@
+[
+  {
+    "type": "upload-photo",
+    "propertyName": "photo"
+  },
+  {
+    "type": "input",
+    "label": "First Name",
+    "propertyName": "firstname",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "First Name...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "minLength": {
+          "value": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "label": "Last Name",
+    "propertyName": "lastname",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Last Name...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "minLength": {
+          "value": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "label": "Cell Number",
+    "propertyName": "phoneNumber",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Cell Number...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "minLength": {
+          "value": 6
+        }
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "label": "Username",
+    "propertyName": "username",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "Username...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "minLength": {
+          "value": 2
+        }
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "label": "Email",
+    "propertyName": "email",
+    "labelColor": "black",
+    "labelWidth": "5",
+    "placeholder": "E.g. user123@gmail.com...",
+    "sizeInput": "large",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "inputWidth": "11",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "pattern": {
+          "value": "",
+          "type": "email"
+        }
+      }
+    ]
+  }
+]

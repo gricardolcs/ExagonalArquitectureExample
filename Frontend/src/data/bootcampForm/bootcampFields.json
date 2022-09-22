@@ -1,0 +1,192 @@
+[   
+    {
+        "type": "input",
+        "label": "Name",
+        "propertyName": "name",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Project name...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [ 
+            {
+                "required": {
+                    "value": true  
+                }
+            }
+        ]
+    },
+    {
+        "type": "text-area",
+        "label": "Description",
+        "propertyName": "description",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Short project description...",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [ 
+            {
+                "required": {
+                    "value": true
+                    
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Location",
+        "propertyName": "location",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Add location...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [ 
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "date",
+        "label": "Start Date",
+        "propertyName": "startDate",
+        "labelColor": "black",
+        "labelIcon": "calendar",
+        "iconColor": "black",
+        "labelWidth": "5",
+        "placeholder": "yyyy-mm-dd",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "date",
+        "label": "Final Date",
+        "propertyName": "endDate",
+        "labelColor": "black",
+        "labelIcon": "calendar",
+        "iconColor": "black",
+        "labelWidth": "5",
+        "placeholder": "yyyy-mm-dd",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "label": "Department",
+        "propertyName": "departmentType",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Select department...",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "allowAdditions": false,
+        "options": "departments",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "number",
+        "label": "Number of Participants",
+        "propertyName": "participantsExpectedQuantity",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "min": 0,
+        "value": 0,
+        "required": true,
+        "fieldErrors": [ 
+            {
+                "required": {
+                    "value": true
+                },
+                "min": {
+                    "value": 0
+                }
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "label": "Project type",
+        "propertyName": "projectType",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Select project type...",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "allowAdditions": false,
+        "options": "projects",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "label": "Workflow type",
+        "propertyName": "workflowType",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Select one",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "allowAdditions": false,
+        "options": "workflows",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    }
+]

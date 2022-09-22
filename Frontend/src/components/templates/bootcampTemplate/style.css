@@ -1,0 +1,83 @@
+.left.aligned.four.wide.column.arrow-section {
+  padding: 1.5rem 0 2rem 0;
+}
+
+.bootcamp-arrow:hover {
+  font-size: 1.1rem;
+}
+
+.row.bootcamp-circle {
+  margin: 0 4.5rem;
+}
+
+.paddingZero {
+  padding: 0 !important;
+}
+
+.text-format.paddingZero.date-margin {
+  margin: 0.5rem;
+}
+
+.text-format {
+  display: inline;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.text-format span {
+  font-weight: normal;
+}
+
+.row.text-format.text-tittle {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.bootcamp-image-container {
+  border-radius: 50%;
+}
+
+.description {
+  margin-left: 0.5rem;
+  text-align: left !important;
+}
+
+.status {
+  font-size: 1.2rem;
+}
+
+.right.aligned.twelve.wide.column.bootcamp-details {
+  padding: 0;
+}
+
+.ui.grid.container-details {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .left.aligned.sixteen.wide.column.paddingZero.text-tittle {
+    text-align: center;
+  }
+
+  .text-format {
+    margin-top: 0;
+  }
+
+  .right.aligned.twelve.wide.column.bootcamp-details {
+    padding: 0 !important;
+  }
+
+  .left.aligned.four.wide.column.arrow-section {
+    padding: 1rem 0 !important;
+  }
+
+  .row.bootcamp-circle {
+    margin: 0 6.7rem;
+  }
+
+  .right.aligned.sixteen.wide.column.paddingZero.date-section {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+}

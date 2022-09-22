@@ -1,0 +1,16 @@
+.flex-profile {
+  float: right;
+  display: flex;
+  align-items: center;
+  padding-right: 1.5rem;
+  flex-direction: column;
+}
+
+.text-profile {
+  color: #FFFFFF;
+  padding-top: .2rem;
+}
+
+.text-profile > p {
+  font-size: var(--textFontSize);
+}

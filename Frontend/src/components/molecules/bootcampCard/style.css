@@ -1,0 +1,26 @@
+img.ui.mini.middle.aligned.image.bootcamp-icon {
+  height: 1.2em;
+  width: 1.2em;
+  margin-right: 0.438rem;
+}
+
+.card-little-column.bootcamp-card {
+  background: #14567c;
+}
+
+.circle {
+  display: flex;
+  width: 4.625rem;
+  height: 4.625rem;
+  left: 0.313rem;
+  top: 0.313rem;
+  background: #ffffff;
+  box-shadow: 0 0.188rem 0.25rem rgba(0, 0, 0, 0.16);
+  border-radius: 3.125rem;
+  align-items: center;
+  justify-content: center;
+}
+
+img.ui.tiny.middle.aligned.image.logo {
+  max-width: 70%;
+}

@@ -1,0 +1,18 @@
+.ui.doubling.grid.styleGrid {
+  display: contents;
+}
+  
+.stylestyleIcons {
+  width: 100%
+}
+
+.styleButtons {
+  width: 100%;
+}
+  
+@media (min-width: 767px) {
+  .styleButtons {
+    content-visibility: hidden ;
+    width: 5rem;
+  }
+}

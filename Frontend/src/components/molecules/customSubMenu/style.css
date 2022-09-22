@@ -1,0 +1,27 @@
+.subMenuTabsText {
+    font-size: var(--subtabFontSize);
+}
+
+.active.item.default-subTab-selected.subMenuTab {
+    border-color: #74B9E9;
+    border-radius: 0 !important;
+    font-weight: 700 !important;
+}
+
+.ui.top.attached.menu.subMenuNavBar {
+    border: none;
+    height: 2.51rem;
+    border-radius: 0;
+    background: #C4C4C4;
+    margin: auto;
+    width: auto;
+    font-size: var(--labelFormTextFontSize);
+    border-bottom: 0.3rem solid #74B9E9;
+}
+
+.ui.segment.tab.subMenuContent {
+    padding: 0.5rem 0;
+    margin: auto;
+    width: auto;
+    border-radius: 0;
+}

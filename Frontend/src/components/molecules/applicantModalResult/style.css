@@ -1,0 +1,52 @@
+@import url("../../../styles/common.css");
+
+.headerText {
+    text-align: left;
+}
+
+.modal-content {
+    font-family: var(--fontRoboto);
+    font-size: var(--navBarTextFontSize);
+}
+
+.bold-content {
+    font-weight: bolder;
+}
+
+.titles-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.import-results-data {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: var(--fontRoboto);
+    font-size: var(--navBarTextFontSize);
+}
+
+i.warning.sign.icon.warning-error {
+    font-size: 1.125rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.summary-title {
+    margin: 1.563rem 0;
+}
+
+.big-number-result {
+    font-size: 1.7rem;
+}
+
+.big-dot-result {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
+.row-errors {
+    margin-top: 2.563rem;
+    margin-bottom: 3.813rem;
+}

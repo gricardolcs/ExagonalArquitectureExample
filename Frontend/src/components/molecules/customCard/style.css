@@ -1,0 +1,106 @@
+.ui.card.card-container, .ui.card.card-container:last-child {
+  width: auto;
+  height: 10.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ui.card>.card-little-column:first-child, .ui.cards>.card>.card-little-column:first-child {
+  border-bottom-right-radius: 1.5rem !important;
+  border-top-right-radius: 1.5rem !important;
+}
+
+.ui.card:last-child {
+  margin-top: 0;
+}
+
+.card-little-column {
+  background: orange;
+  position: absolute;
+  height: 5.75rem;
+  width: 0.43rem;
+  margin: 1.43rem 0 3.581rem 0 !important;
+}
+
+.row.image-content {
+  width: 5.8rem;
+}
+
+.center.aligned.six.wide.column.image-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  text-align: -webkit-center;
+}
+
+.row.status-row {
+  margin-top: 1.22rem;
+  font-size: 1.001rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.blue.small.icon.circle {
+  width: 0.715rem;
+  height: auto;
+  margin-right: 0.573rem;
+}
+
+.row.status-row p {
+  width: 2.9rem;
+  height: 1.51rem;
+  color: #3b4650;
+  opacity: 60%;
+}
+
+.eight.wide.column.content-row {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.center.aligned.header.card-header {
+  text-align: left;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta.card-meta {
+  text-align: left;
+  margin-bottom: 1.23rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.left.aligned.description.card-descriptions {
+  margin-left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ui.grid>.column.two.wide.column.card-options:not(.row) {
+  padding: 1rem 0;
+}
+
+.ui.tiny.middle.aligned.image.icon-more {
+  width: 0.361rem;
+  height: 1.45rem;
+  margin: 0 1rem 0 1rem;
+;
+}
+
+.ui.tiny.middle.aligned.image.icon-download {
+  width: 1.25rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.ui.tiny.middle.aligned.image.icon-download.enabled:hover {
+  cursor: pointer;
+  background-color: var(--grayLightColor)
+}
+
+.space {
+  padding: 2.6rem 0;
+}

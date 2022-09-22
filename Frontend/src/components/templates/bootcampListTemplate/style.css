@@ -1,0 +1,121 @@
+.bootcamp-table-container-row {
+    height: 16.875rem;
+    margin-top: 1rem;
+}
+
+.bootcamp-table-leftbox {
+    float: left; 
+    background: #F2F0F0;
+    width: 20%;
+    height: 16.875rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    padding: 1.1rem;
+}
+
+.bootcamp-table-middlebox{
+    float: left;
+    background: #C8C4C4;
+    width: 70%;
+    height: 16.875rem;
+    border-radius: 0.625rem;
+    padding: 1rem;
+}
+
+.bootcamp-table-rightbox{
+    float: right;
+    background: black;
+    width: 10%;
+    height: 16.875rem;
+    text-align: left;
+    border-radius: 0.625rem;
+}
+
+.bootcamp-table-name {
+    font-family: Arial;
+    font-size: 1.4vw;
+    font-weight: 540;
+    color: black;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+.bootcamp-table-dates {
+    font-family: Arial;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: white;
+    line-height: 2rem;
+    margin: 2rem;
+}
+
+.bootcamp-table-startdate {
+    margin-bottom: 3rem;
+}
+
+.bootcamp-table-status {
+    padding-left: 1rem;
+    height: 3rem;
+}
+
+.bootcamp-table-status-label {
+    font-family: Arial;
+    width: 8rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.bootcamp-table-status-label-active {
+    color: #4B9016;
+    background: #CFF7B1;
+}
+
+.bootcamp-table-status-label-inactive {
+    color: white;
+    background: #898383;
+}
+
+.bootcamp-table-description {
+    padding: 1rem;
+    height: 9rem;
+    text-align: left;
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 2rem;
+}
+
+.bootcamp-table-action {
+    height: 2.5rem;
+    text-align: right;
+}
+
+.bootcamp-table-action-icons-edit {
+    display: inline;
+    padding-right: 1.2rem;
+}
+
+.bootcamp-table-action-icons-delete {
+    display: inline;
+}
+
+.bootcamp-table-action-icons:hover {
+    font-size: 120%;
+}
+
+.bootcamp-table-action-icons-edit:hover {
+    font-size: 150%;
+}
+
+.bootcamp-table-action-icons-delete:hover {
+    font-size: 150%;
+}
+
+.bootcamp-table-name:hover {
+    font-size: 210%;
+}
+
+.bootcamp-table-image-container {
+    border-radius: 50%;
+}

@@ -1,0 +1,13 @@
+.custom-project-list {
+  height: calc(100% - 17rem);
+  width: 100%;
+  padding: 1.5rem 10rem 1.5rem 10rem;
+  overflow: hidden;
+  overflow-y: auto;
+  position: fixed;
+}
+
+.ui[class*='vertically divided'].grid > .column.project-card-column:not(.row),
+.ui[class*='vertically divided'].grid > .row > .column.project-card-column {
+  margin-bottom: 0;
+}

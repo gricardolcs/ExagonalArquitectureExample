@@ -1,0 +1,124 @@
+@import url(../../../styles/common.css);
+
+.field-section {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ui.grid > .row.inputsTopRow {
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.ui.grid > .row.inputsMidRow {
+  padding: 1rem 1rem;
+}
+
+.ui.button.button-submit,
+.ui.button.button-submit:hover {
+  background-color: var(--primaryLightColor);
+  color: var(--colorWhite);
+}
+
+.row.commentRow {
+  padding-top: 0;
+  display: flex;
+}
+
+.row.inputsBottomRow {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.ui.tiny.image.upload-button {
+  width: 1rem;
+  height: 1rem;
+}
+
+.ui.button.button-upload {
+  padding: 0.43rem;
+}
+
+.textBoxClassName .ui.input > input {
+  min-height: 2.063rem;
+}
+
+.ui.search.selection.dropdown.textBoxClassName:focus-within {
+  border: 0.063rem solid #85b7d9 !important;
+}
+
+.ui.search.selection.dropdown.textBoxClassName {
+  min-width: 9rem;
+  min-height: 0.9375rem;
+  border: 0.063rem solid white;
+}
+
+.ui.dropdown > div.text {
+  margin-right: 1.5em;
+  margin-left: 0.5em;
+}
+
+.field.commentsSection {
+  width: 100%;
+  margin: 1rem;
+}
+
+.ui.two.column.grid > .sixteen.wide.column {
+  padding: 0rem 1rem;
+}
+
+.ui.medium.basic.label.custom.stage-label {
+  padding: 0;
+}
+
+.sixteen.wide.column > .stage-text-area {
+  padding: 0.5833em 0.833em;
+  width: 100%;
+  border: 0.063rem solid rgba(34, 36, 38, 0.15);
+  resize: none;
+  outline: none;
+}
+
+.sixteen.wide.column > .stage-text-area:focus {
+  border-color: #85b7d9;
+}
+
+.left.floated.column > .ui.grid {
+  inline-size: max-content;
+  width: min-content;
+}
+
+.stage-checkbox > label {
+  color: black !important;
+  font-weight: bold;
+  font-size: 0.85714286rem !important;
+  cursor: default !important;
+  margin-right: 0.313rem;
+}
+
+.ui.medium.basic.label.custom.upload-section {
+  display: flex;
+  align-items: center;
+}
+
+.ui.mini.middle.aligned.image.image-upload {
+  height: 1.2rem !important ;
+  width: 1.2rem !important;
+  margin-left: 0.5rem;
+}
+
+.stage-fields {
+  padding-top: 1rem;
+}
+
+.field.field-section .ui.one.column.grid .row .column {
+  width: 8.125rem;
+  height: 2.3rem;
+}
+
+.three.column.row.inputsTopRow .four.wide.column {
+  padding-left: 0.688rem;
+}

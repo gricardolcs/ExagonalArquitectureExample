@@ -1,0 +1,34 @@
+.ui.image.labelImage {
+    width: 1.13rem !important;
+    height: 1.13rem !important;
+}
+
+.ui.grid>.column.inputColumn:not(.row), .ui.grid>.row>.column.inputColumn {
+    padding-left: 0;
+}
+
+.ui.popup.message {
+    background: #fff6f6;
+    border-color: #e0b4b4 !important;
+    color: #9f3a38;
+}
+
+.ui.right.center.popup.pointer:before {
+    background-color: #fff6f6;
+    box-shadow: -0.063rem 0.063rem 0 0 #e0b4b4;
+}
+
+.ui.bottom.center.popup.pointer:before {
+    background-color: #fff6f6;
+    box-shadow: -0.063rem -0.063rem 0 0 #e0b4b4;
+}
+
+.ui.top.center.popup.pointer:before {
+    background-color: #fff6f6;
+    box-shadow: 0.063rem 0.063rem 0 0 #e0b4b4;
+}
+
+.ui.left.center.popup.pointer:before {
+    background-color: #fff6f6;
+    box-shadow: 0.063rem -0.063rem 0 0 #e0b4b4;
+}

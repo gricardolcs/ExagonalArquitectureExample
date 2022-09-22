@@ -1,0 +1,15 @@
+@import url('../../../styles/common.css');
+
+.component-card {
+  width: 65% !important;
+}
+.component-header-card {
+  padding: 1em;
+  background-color: var(--grayLightColor);
+  color: var(--primaryDarkColor);
+  font-weight: var(--fontBold);
+  font-size: var(--titleFontSize);
+}
+.component-body {
+  padding: 1em 0.5em;
+}

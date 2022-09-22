@@ -1,0 +1,80 @@
+.ui.tiny.image.icon-plus,
+.ui.tiny.image.icon-minus {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.ui.tiny.image.icon-sort-ascending,
+.ui.tiny.image.icon-sort-descending {
+  width: 0.75rem;
+  height: 0.438rem;
+}
+
+.search-projects > * {
+  display: unset;
+  width: 100%;
+}
+
+.ui.button.custom-button {
+  margin-left: 0.313rem;
+}
+
+.ui.table.projects-table {
+  border: unset;
+}
+
+.ui.table thead th.project-table-header-cell {
+  background: white;
+  border: unset;
+  font-weight: normal;
+}
+
+.ui.table tr td.project-table-header-cell {
+  border-top: unset;
+  padding-bottom: 0;
+}
+
+.ui.grid.skills-grid {
+  padding: 0.3rem;
+}
+
+.ui.table tr td.project-table-header-cell:last-child {
+  border-top: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.custom-body {
+  display: block;
+  height: 13.25rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0.063rem solid #e8e9e9;
+  border-radius: 0.25rem;
+}
+
+.custom-head,
+.custom-body tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.custom-row {
+  padding: 0.5rem;
+}
+
+.skills-column {
+  text-align: right;
+}
+
+.img-ascending-descending {
+  display: flex;
+  flex-direction: column;
+  padding: 0.313rem;
+}
+
+.location-cell {
+  display: flex;
+  flex-direction: row;
+}

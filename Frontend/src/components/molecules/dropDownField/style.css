@@ -1,0 +1,15 @@
+.ui.image.labelImage {
+  width: 1.13rem !important;
+  height: 1.13rem !important;
+}
+
+.ui.grid > .column.dropdownColumn:not(.row),
+.ui.grid > .row > .column.dropdownColumn {
+  padding-left: 0;
+}
+
+.ui.grid > .column.dropdownLabel:not(.row),
+.ui.grid > .row > .column.dropdownLabel {
+  padding-right: 0;
+  padding-left: 0;
+}

@@ -1,0 +1,110 @@
+@import url("../../../styles/common.css");
+
+.ui.circular.button.stage-button {
+    font-family: var(--fontRoboto);
+    font-style: var(--fontStyle);
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.ui.input.stage-input {
+    width: 5rem;
+    padding: 0rem;
+    height: 2rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.ui.basic.label.stage-label {
+    font-family: var(--fontRoboto);
+    font-style: var(--fontStyle);
+    line-height: 1.2rem;
+}
+
+.ui.basic.label.stage-label.stage-comments-label {
+    padding-left: 0;
+}
+
+.ui.basic.label.stage-label-width-initial {
+    padding-left: 0.5rem;
+}
+
+.ui.small.modal>.header:not(.ui).stage-modal-header h1 {
+    font-family: var(--fontRoboto);
+    font-style: var(--fontStyle);
+    font-size: 2rem;
+    height: 2rem;
+    line-height: 3.5rem;
+}
+
+.ui.small.modal>.header:not(.ui).stage-modal-header {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+textarea.stage-text-area {
+    width: 100%;
+    background: var(--colorWhite);
+    border: 0.063rem solid var(--colorBlack);
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    margin-left: 0rem;
+}
+
+.ui.radio.checkbox.stage-checkbox {
+    font-family: var(--fontRoboto);
+}
+
+.ui.radio.checkbox.stage-checkbox.disqualified input:checked~label:after{
+    background-color: #FF4848;
+}
+
+.ui.radio.checkbox.stage-checkbox.qualified input:checked~label:after{
+    background-color: #4B9116;
+}
+
+.internal-padding {
+    padding: 0rem 1rem !important;
+}
+
+.row.message-section {
+    color: rgb(148, 146, 146);
+    height: 1.6rem;
+    margin-left: 0.49rem;
+}
+
+.ui.small.middle.aligned.image.message-image {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.message-section p{
+    font-family: var(--fontRoboto);
+    font-style: var(--fontStyle);
+    font-weight: var(--fontBold);
+    font-size: 0.75rem;
+}
+
+.left.floated.eleven.wide.column.stage-dropdown {
+    padding: 0.9rem 0 1rem 0.7rem;
+}
+.right.floated.five.wide.column.stage-dropdown {
+    padding: 0.5rem 0.5rem;
+}
+
+@media (max-width: 767px) {
+    .ui.basic.label.stage-label-width-initial {
+        padding-left: 0rem;
+    }
+    .button-section {
+        max-width: min-content;
+    }
+    .center.aligned.two.column.row.button-container {
+        place-content: center;
+    }
+    .row.message-image {
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,223 @@
+[
+    {
+        "type": "upload-photo",
+        "propertyName": "photo"
+    },
+    {
+        "type": "input",
+        "label": "Name",
+        "propertyName": "name",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Name...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [ 
+            {
+                "required": {
+                    "value": true
+                    
+                },
+                "minLength": {
+                    "value": 6
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Last Name",
+        "propertyName": "lastName",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Last Name...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                },
+                "minLength": {
+                    "value": 6
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Email",
+        "propertyName": "email",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "E.g. user123@gmail.com...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                },
+                "pattern": {
+                    "value": "",
+                    "type":"email"
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Cell number",
+        "propertyName": "telephone",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Add number...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "label": "Country",
+        "propertyName": "country",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Select a country...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "allowAdditions": false,
+        "options": "countries",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "dropdown",
+        "label": "City",
+        "propertyName": "city",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Select a city...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "allowAdditions": false,
+        "options": "cities",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Career",
+        "propertyName": "career",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Career...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "label": "Degree",
+        "propertyName": "degree",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Degree...",
+        "sizeInput": "large",
+        "iconColor": "black",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "date",
+        "label": "Birthday",
+        "propertyName": "birthday",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Birthday...",
+        "sizeInput": "large",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "minDate": "1940-01-01",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    },
+    {
+        "type": "file",
+        "label": "CV",
+        "propertyName": "curriculumVitae",
+        "labelColor": "black",
+        "labelWidth": "5",
+        "placeholder": "Upload a PDF format file...",
+        "className": "inputCustomForm",
+        "labelVariant": "labelCreateForm",
+        "inputWidth": "11",
+        "required": true,
+        "iconInside":"upload",
+        "fieldErrors": [
+            {
+                "required": {
+                    "value": true
+                }
+            }
+        ]
+    }
+]

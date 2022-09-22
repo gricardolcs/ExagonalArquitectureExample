@@ -1,0 +1,40 @@
+1) Open mongo cfg config files: mongod.cfg
+
+2) # Enable replication to support transactions.
+replication:
+   oplogSizeMB: 128
+   replSetName: "rs0"
+   enableMajorityReadConcern: true
+
+3) Save
+
+4) Restart the service
+
+5) Proceed to create the replica set (Allows transactions to work):
+
+rs.initiate({
+      _id: "rs0",
+      version: 1,
+      members: [
+         { _id: 0, host : "localhost:27017" }
+      ]
+   }
+)
+
+6) Open mongo server C:\Program Files\MongoDB\Server\4.4\bin>mongo.exe
+
+7) Create the root user:
+db.createUser( { user: "root",
+ pwd: "root",
+ roles: [ { role: "readWrite", db: "bootcamp_development" }],
+   } );
+
+
+Some useful commands:
+show dbs: To show all dbs
+
+use db_name: Use a db
+
+show collections: To show all collections of one db
+
+db.collection_name.find(): Query for all entries within the collection

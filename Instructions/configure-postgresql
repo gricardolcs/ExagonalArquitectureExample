@@ -1,0 +1,15 @@
+Install postgresql from https://www.postgresql.org/download/
+
+Cheat sheet:
+
+How to open postgres console?
+    Search for psql, usually located on C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 13
+
+How to list all databases?
+    Use \l in psql
+
+How to move to a database?
+    Use \c database_name
+
+How to view all tables created within a database?
+    Use \d

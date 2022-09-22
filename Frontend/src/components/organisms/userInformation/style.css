@@ -1,0 +1,12 @@
+.user-information-fields {
+  margin: 1em 15em 3em;
+}
+.user-information-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui.mini.input .user-inputCreateForm {
+  cursor: context-menu;
+  border: none;
+}

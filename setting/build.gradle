@@ -1,0 +1,123 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		classpath 'org.mongodb:mongo-java-driver:3.12.10'
+	}
+}
+
+plugins {
+	id 'org.springframework.boot' version '2.3.9.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'groovy'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation project(':becommon')
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+	implementation group: 'io.springfox', name: 'springfox-boot-starter', version: '3.0.0'
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+import com.mongodb.BasicDBList
+import com.mongodb.BasicDBObject
+import com.mongodb.DB
+import com.mongodb.MongoClient
+import com.mongodb.util.JSON
+
+project.ext {
+	configDB = { ->
+		def mongoClient = new MongoClient('localhost', 27017)
+		DB database = mongoClient.getDB("setting")
+		return database
+	}
+}
+
+
+task insertBaseDocuments() {
+	doLast {
+		def categories = project.ext.configDB().getCollection('category')
+		def dataFilePath = "src/main/resources/insert.base.documents.json"
+		File file = new File(dataFilePath)
+		println("Database: insert documents")
+		def fr = new FileReader(file)
+		try {
+			char[] chars = new char[(int) file.length()]
+			fr.read(chars)
+			String fileContent = new String(chars)
+			BasicDBList basicDBList = (BasicDBList) JSON.parse(fileContent)
+			for (Object object : basicDBList) {
+				categories.insert((BasicDBObject) object)
+			}
+		}
+		catch (IOException e) {
+			e.printStackTrace()
+		} finally {
+			fr.close()
+		}
+	}
+}
+
+task cleanCollections() {
+	doFirst {
+		def category = project.ext.configDB().getCollection("category")
+		println("Database: cleaning collections")
+		category.drop()
+	}
+}
+
+task insertUserAccountSettingDocuments() {
+	doFirst {
+		def userAccountSettings = project.ext.configDB().getCollection('userAccount')
+		println("Database: cleaning collections")
+		userAccountSettings.drop()
+		def dataFilePath = "src/main/resources/insert.expiration.days.block.attemps.json"
+		File file = new File(dataFilePath)
+		println("Database: insert documents")
+		def fr = new FileReader(file)
+		try {
+			char[] chars = new char[(int) file.length()]
+			fr.read(chars)
+			String fileContent = new String(chars)
+			BasicDBObject object = JSON.parse(fileContent)
+				userAccountSettings.insert(object)
+		}
+		catch (IOException e) {
+			e.printStackTrace()
+		} finally {
+			fr.close()
+		}
+	}
+}
+
+insertBaseDocuments.dependsOn(cleanCollections)
+
+

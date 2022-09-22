@@ -1,0 +1,9 @@
+.ui.divider:not(.vertical):not(.horizontal).separate {
+  border-top: 0.125rem solid rgb(255 255 255);
+  border-bottom: 0.125rem solid rgb(255 255 255);
+  margin: 2rem 0 0.5rem 0;
+}
+
+.accordion {
+  padding: 1rem;
+}

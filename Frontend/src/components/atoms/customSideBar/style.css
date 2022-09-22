@@ -1,0 +1,31 @@
+@import url(../../../styles/common.css);
+
+.ui.left.visible.sidebar.custom-sidebar,
+.ui.right.visible.sidebar.custom-sidebar {
+  width: inherit;
+  top: 5.6rem;
+  box-shadow: none;
+  padding: 0;
+  background-color: var(--sidebarBackground);
+}
+
+.custom-sidebar-header {
+  background: #f3f3f4;
+  min-height: 5rem;
+}
+
+.custom-sidebar-body {
+  padding: 0;
+}
+
+.ui.grid.sidebar-grid {
+  margin-top: unset;
+}
+
+.ui.grid > .row.sidebar-header-row {
+  padding: 0;
+}
+
+.ui.grid > .row > .column.sidebar-header-column {
+  padding: 0 0 0 0.6rem;
+}

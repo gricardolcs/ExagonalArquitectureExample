@@ -1,0 +1,24 @@
+[
+  {
+    "type": "number",
+    "label": "Expiration days",
+    "propertyName": "passwordExpirationInDays",
+    "labelWidth": "5",
+    "placeholder": "Expiration days...",
+    "inputWidth": "3",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "labelColor": "black",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+@import url('../../../styles/common.css');
+.container {
+  overflow-y: auto;
+  height: auto;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.ui.circular.label {
+  background-color: transparent;
+  font-size: var(--fontSizeStandard);
+  color: var(--colorBlack);
+  font-family: var(--fontRoboto);
+  line-height: 1rem;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+}
+
+.row.row-section {
+  display: flex;
+  text-align: center;
+}
+
+.title-stage {
+  margin-bottom: 0;
+  margin-right: 0.938rem;
+  padding-left: 0.438rem;
+}
+
+.middle.aligned.one.wide.column {
+  text-align: right;
+}
+
+.bootcamp-cards-container {
+  height: calc(100% - 19.5rem);
+  width: 83.6%;
+  padding: 1.5rem 0 0rem 1.5rem;
+  overflow-y: auto;
+  position: fixed;
+}

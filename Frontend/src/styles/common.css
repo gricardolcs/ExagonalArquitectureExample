@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@700&display=swap');
+
+:root {
+  --fontArial: Arial;
+  --fontStyle: normal;
+  --fontRoboto: 'Roboto', sans-serif;
+  --fontRubik: 'Rubik', sans-serif;
+  --colorBlack: #0e171d;
+  --colorWhite: white;
+  --whiteLightColor: #f8f8f8;
+  --whiteDarkColor: #f3f3f4;
+  --backgroundColor: #e0e1e2;
+  --fontBold: bold;
+  --titleFontSize: 1.25rem;
+  --navBarTextFontSize: 1.125rem;
+  --fontSizeStandard: 0.875rem;
+  --listTextFontSize: 0.85rem;
+  --subtabFontSize: 1rem;
+  --labelFormTextFontSize: 0.938rem;
+  --textFontSize: 0.813rem;
+  --blueColor: #3498dc;
+  --blueLightColor: #b0ddfb;
+  --greenColor: #4b9016;
+  --greenLightColor: #cff6b1;
+  --grayColor: #89949e;
+  --grayLightColor: #cdd8e2;
+  --grayDarkColor: #3b4650;
+  --redColor: #ff4848;
+  --redLightColor: #ff8e8e;
+  --miniSizeImageAsIcon: 2rem;
+  --navBarIconWidth: 1.4rem;
+  --orangeColor: #ffa500;
+  --orangeLightColor: #ffd580;
+  --purpleColor: #9953b7;
+  --purpleLightColor: #d8a4ee;
+  --primaryLightColor: #1b96da;
+  --primaryColor: #1782bd;
+  --primaryDarkColor: #14567c;
+  --sidebarBackground: #e1e8ec;
+  --projectImageShadow: rgba(0, 0, 0, 0.16);
+}

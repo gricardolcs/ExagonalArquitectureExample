@@ -1,0 +1,16 @@
+.filters-container {
+    background-color: gray;
+    height: 4rem;
+    padding: 1rem;
+}
+
+.label {
+    display: inline;
+    padding-right: 2rem;
+}
+
+.search {
+    display: inline;
+    float: right;
+}
+

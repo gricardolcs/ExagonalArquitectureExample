@@ -1,0 +1,4 @@
+.ui.form input[type='checkbox'],
+.ui.form textarea.skills {
+  height: 150px;
+}

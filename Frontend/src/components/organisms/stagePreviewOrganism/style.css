@@ -1,0 +1,16 @@
+.ui.basic.label.custom.edit {
+    color: var(--primaryLightColor) !important;
+    font-weight: normal;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+img.ui.image.icon-edit {
+    width: 0.75rem !important;
+    height: 0.75rem !important;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.ui.grid.preview-stage {
+    margin-left: -0.188rem;
+}

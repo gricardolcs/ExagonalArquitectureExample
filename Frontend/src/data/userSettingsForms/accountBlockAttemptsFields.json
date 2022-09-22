@@ -1,0 +1,24 @@
+[
+  {
+    "type": "number",
+    "label": "Block Attemps",
+    "propertyName": "blockAttempts",
+    "labelWidth": "5",
+    "placeholder": "Block Attemps...",
+    "inputWidth": "3",
+    "className": "inputCustomForm",
+    "labelVariant": "labelCreateForm",
+    "labelColor": "black",
+    "required": true,
+    "fieldErrors": [
+      {
+        "required": {
+          "value": true
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    ]
+  }
+]

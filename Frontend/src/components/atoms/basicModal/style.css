@@ -1,0 +1,26 @@
+@import url(../../../styles/common.css);
+
+.header {
+  text-align: center;
+}
+
+i.close.icon.custom {
+  color: black;
+  top: 0.06rem;
+  right: 0.06rem;
+  font-size: small;
+}
+
+.modal-project {
+  padding: 1.5rem !important;
+}
+
+.modal-header-project {
+  text-align: left;
+  font-family: var(--fontRubik) !important;
+  padding: 2rem !important;
+}
+
+.modal-body-project {
+  font-family: var(--fontRoboto);
+}

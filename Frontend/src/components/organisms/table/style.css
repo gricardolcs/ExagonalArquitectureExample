@@ -1,0 +1,25 @@
+.left.floated.eleven.wide.column.paddingTrim {
+  padding: 1rem 0rem;
+}
+
+.mobile.only.row.paddingZero {
+  padding: 0rem;
+}
+
+.contentMin {
+  max-width: max-content;
+}
+
+.classNameCell {
+  width: 1rem;
+}
+
+.ui.grid.gridMobile {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .classNameHeader {
+    content-visibility: hidden ;
+  }
+}
